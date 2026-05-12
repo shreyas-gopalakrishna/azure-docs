@@ -781,7 +781,7 @@ How you update an expiring certificate depends on the certificate source:
 
 - **Certificates imported from Key Vault**: When you renew a certificate in Key Vault, the platform background job automatically syncs the updated certificate to your function app within 24 hours. The new certificate version is loaded to all instances without any manual steps.
 
-- **Uploaded certificates**: Upload the new certificate, then make it accessible to your app code. If your code references the certificate by thumbprint, you also need to update any thumbprint references in your code or app settings.
+- **Uploaded certificates**: Upload the new certificate, then make it accessible to your app code. If your code references the certificate by thumbprint, you also need to update any thumbprint references in your code.
 
 ### Site-scoped vs. webspace-scoped certificates
 
